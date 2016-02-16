@@ -1,0 +1,447 @@
+/********************************************/
+
+/* Hey there. This stylesheet is broken up 
+into the following sections.
+
+SECTION 1: GENERAL STYLES
+SECTION 2: CUSTOM CLASSES
+SECTION 3: BUTTONS
+SECTION 4: MENU AND NAV
+SECTION 5: OFF CANVAS NAV
+SECTION 6: MAIN DIVS AS THEY APPEAR IN THE HTML
+SECTION 7: FOOTER
+SECTIONS 8, 9, 10, 11: THESE SECTIONS ARE RESERVED FOR THE INDIVIDUAL PAGES. HOPEFULLY, YOU WON'T NEED TO USE THIS AREA MUCH OTHER TO WRITE SOME CUSTOM ITEMS WHEN NEEDED. IT IS IMPORTANT THAT THESE SELECTORS GET REDISTRIBUTED INTO THE REST OF THIS CSS DOCUMENT WHEN POSSIBLE
+SECTION 12: MEDIA QUERIES - THIS SITE WAS BUILT MOBILE FIRST. SO THE MEDIA QUERIES PERTAIN TO MEDIUM AND LARGE SCREENS. */
+
+/********************************************/
+
+
+/********************************************/
+/* GENERAL STYLES */
+/********************************************/
+
+h1, h2, h3, h4, h5, h6 {
+	color: #1d438f;
+	width: 90%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 1.5em;
+	border: solid #f47a26;
+	border-width: 0 0 1px 0;
+	padding: .2em 0;
+	font-family: 'Gill Sans MT';
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'Gill Sans MT';
+}
+
+h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-bottom: -.8em;
+	font-family: 'Gill Sans MT';
+}
+
+p {
+	width: 90%;
+	margin: 1em auto;
+	color: #333;
+	font-size: .9em;
+	font-family: 'Gill Sans MT';
+}
+
+hr {
+	background-color: #f47a26;
+	color: #f47a26;
+	height: .1em;
+}
+
+/********************************************/
+/* CUSTOM CLASSES */
+/********************************************/
+.highlight {
+	font-size: 1em;
+	margin-bottom: 1.5em;
+	color: #1d438f;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.orangeBorder {
+	border: solid;
+	border-color: #f47a26;
+}
+
+.orangeBorderBottom {
+    border-width: 0 0 .1em 0;
+}
+
+.orangeBorderTop {
+    border-width: .1em 0 0 0;
+}
+
+
+/********************************************/
+/* BUTTONS */
+/********************************************/
+.button, button {
+	border-radius: 5px;
+	background: #fff;
+	background: rgba(0, 0, 0, 0.2);
+	border: solid #eee 1px;
+}
+
+.button a {
+	color: #eee;
+}
+
+.button a:hover {
+	background: rgba(0, 0, 0, 0.1)
+}
+
+.headerButtons {
+	margin: 2.5em 0 0 0;
+	text-align: right;
+}
+
+/********************************************/
+/* MENU, NAV */
+/********************************************/
+nav, .siteName {
+    background-color: #1d438f;
+    background-color: rgba(29,67,143,1);
+}
+
+nav a {
+    color: #ddd;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/********************************************/
+/* OFF-CANVAS NAVIGATION FOR MOBILE VIEW    */
+/********************************************/
+.title-bar {
+    background: #0c2860;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #0c2860;
+}
+
+.top-bar ul li:hover, .top-bar ul li:hover {
+    background-color: #eee;
+}
+
+.top-bar a {
+    color: #eee;
+}
+
+.top-bar a:hover {
+	color: #0c2860;
+    text-decoration: underline;
+}
+
+/********************************************/
+/* MAIN DIVS IN ORDER IN WHICH THEY COME    */
+/********************************************/
+header {
+    background-repeat: none;
+    background-size: cover;
+    min-height: 20em;
+    margin-bottom: -120px;
+}
+
+.siteName {
+	padding: 1em;
+}
+
+.siteName h1 {
+	color: #eee;
+	font-style: oblique;
+	font-size: 4em;
+	font-weight: bold;
+	margin-bottom: 0;
+	border: none;
+	font-family: sans-serif;
+}
+
+.siteName h6 {
+	color: #eee;
+	font-style: oblique;
+	font-size: .6em;
+	margin-top: -3em;
+	font-family: sans-serif;
+}
+
+.siteName h1, .siteName h6 {
+	text-align: center;
+}
+
+.siteName a {
+	color: #eee;
+}
+
+
+
+/********************************************/
+/* FOOTER */
+/********************************************/
+
+footer {
+	background-image: url('../img/ftdc_banner.jpg');
+    background-repeat: none;
+    background-size: cover;
+    min-height: 12em;
+    position: relative;
+}
+
+.footerContent {
+	background-color: #1d438f;
+    background-color: rgba(29,67,143,0.75);
+    background-size: cover;
+    color: #eee;
+    padding: 1em 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: .8em;
+    text-align: center;
+}
+
+.footerContent li {
+	list-style: none;
+}
+
+.footerContent a {
+	color: #eee;
+}
+
+.footerContent a:hover {
+	text-decoration: underline;
+}
+
+/********************************************/
+/* INDEX */
+/********************************************/
+
+.enter {
+	text-align: center;
+}
+
+.enter button {
+	padding: 15px;
+	line-height: 2;
+	display:block; /* change this from inline-block */
+    width:20%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+    position:relative;
+    color:#fff;
+    text-align:center;
+    cursor:pointer;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+}
+
+/********************************************/
+/* SERVICES */
+/********************************************/
+
+ 
+/********************************************/
+/* PORTFOLIO */
+/********************************************/
+
+.row .column {
+	padding: 5px;
+}
+
+
+/********************************************/
+/* TESTIMONIALS */
+/********************************************/
+
+.subtitle {
+	font-size: 0.75em;
+	margin-bottom: -1em;
+	font-style: italic;
+}
+
+.bluebar {
+	border: solid;
+	border-color: #1d438f;
+	border-width: 0 0 1em 0;
+	margin-bottom: 1em;
+}
+
+/* ALL FOR THE QUOTE BELOW */
+
+.centered-text {
+  text-align: center;
+}
+
+.quote-marks {
+  font-size: 100px;
+  font-family: Garamond;
+  color: #1d438f;
+}
+
+.move-right {
+  position: relative;
+  text-align: right;
+}
+
+.quote {
+  border-radius: 5px;
+}
+
+.quote p {
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 40em) {
+  .quote p {
+    padding-left: 20px;
+  }
+}
+
+.student {
+  margin-left: 25px;
+  margin-bottom: 80px;
+}
+.student .photo {
+  background-color: #ccc;
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 15px;
+}
+.student p {
+  position: relative;
+  top: 5px;
+  color: #1d438f;
+}
+.student p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.student p:nth-child(3) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f47a26;
+}
+
+/********************************************/
+/* CONTACT */
+/********************************************/
+
+.center {
+	text-align: center;
+}
+
+.float {
+	float: left;
+}
+
+.profile {
+	border-radius: 50%;
+	width: 40%;
+}
+
+.form {
+	margin: auto;
+    width: 60%;
+    border: 1px solid #f47a26;
+    
+}
+
+/********************************************/
+/* CONTACT */
+/********************************************/
+
+.center {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+/********************************************/
+/* DIRECTIONS */
+/********************************************/
+
+/* Overlay div for Google Map so you have to click on it first */
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:400px; /* your iframe height */
+   top:400px;  /* your iframe height */
+   margin-top:-400px;  /* your iframe height */
+}
+
+
+/********************************************/
+/* MEDIA QUERIES */
+/********************************************/
+
+/********************************************/
+/* MEDIUM SCREEN STYLES */
+/********************************************/
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+    header {
+	    min-height: 30em;
+	}
+
+	.siteName h1, .siteName h6 {
+		text-align: left;
+	}
+
+	
+
+	h1 {
+		font-size: 1.2em;
+	}
+
+	h3 {
+		font-size: 1.3em;
+		font-weight: bold;
+		margin-bottom: -.8em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	.highlight {
+		font-size: 1.2em;
+	}
+
+	footer {
+	    min-height: 20em;
+	}
+
+}
+
+/********************************************/
+/* LARGE SCREEN STYLES */
+/********************************************/
+@media screen and (min-width: 64em) {}
+
+}
