@@ -76,20 +76,215 @@
     <br />
     <br />
 
-    <div class="row form">
-      <div class="small-12 medium-12 large-12 columns">
-<label>Company Name
-<input type="text" placeholder="Company Name">
-</label>
-<label>Name
-<input type="text" placeholder="Name of Person">
-</label>
-<label>What can we help you with?
-<textarea placeholder="Description of Needs"></textarea>
-</label>
-<button class="button expanded">Submit</a>
-      </div>
-    </div>
+		<ul class="accordion" data-accordion data-allow-all-closed="true">
+            <li class="accordion-item 1 is-active" data-accordion-item>
+			<a class="accordion-title">Print Design Application</a>
+			<div class="accordion-content form print" data-tab-content>
+
+				<form>
+				 Print Project Form	
+				 <br>
+				 <br>
+				  Full Name:
+				  <input type="text" name="firstname" pattern="[A-Za-z]+" placeholder="Who we will be in contact with" title="letters only"><br>
+				  Company Name:
+				  <input type="text" name="lastname" pattern="[A-Za-z]+" placeholder="Example Inc" title="letters only"><br>
+				  Email:
+				  <input type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" title="xyz@something.com"><br>
+				  Phone Number:
+				  <input type="text" name="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="123-456-7890" title="Follow this format: 123-123-1231"><br>
+				  <br>
+				  Desired Products: <br>
+				  <label>
+				  <input type="checkbox" name="gender" value="Post Cards"> Post Cards<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Logo"> Logo<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Letterhead"> Letterhead<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Business Cards"> Business Cards<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Posters"> Posters<br>
+				  <label>
+				  <input type="checkbox" name="gender" value="Rack Cards"> Rack Cards<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Banner"> Banner<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Brochure"> Brochure<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Greeting Cards"> Greeting Cards<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Invites"> Invites<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Window Decals"> Window Decals<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Packaging"> Packaging<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Advertisements"> Advertisements<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Flyers"> Flyers<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Apparel" > Apparel<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Booklet"> Booklet<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Menu"> Menu<br>
+				  </label>
+				  <br>
+				  
+				Do you have access to AI, EPS, or Hi-Res PDF of existing logo? <br>
+				<input type="radio" value="Yes"> Yes <br>
+				<input type="radio" value="No"> No <br>
+				<br>
+				Do you have Hi-Res photos you plan on using?<br>
+				<input type="radio" value="Yes"> Yes <br>
+				<input type="radio" value="No"> No <br>
+				<br>
+				Do you need us to photograph?<br>
+				<input type="radio" value="Yes"> Yes <br>
+				<input type="radio" value="No"> No <br>
+				<br>
+				
+				Will you be providing copy, or are you wanting us to write it?<br>
+				<input type="radio" value="Yes"> Yes <br>
+				<input type="radio" value="No"> No <br>
+				<br>
+				
+				Expected delivery date of files or printed pieces?
+				 <input type="text" name="date"><br>                  
+				<br>
+				<button class="button expanded">Submit</a>
+				
+				</form>
+
+          	</div>
+          	</li>
+          	<li class="accordion-item 2" data-accordion-item>
+          	<a class="accordion-title">Web Design Application</a>
+			<div class="accordion-content form print" data-tab-content>
+			<form>
+				 Web Design Form	
+				 <br>
+				 <br>
+				  Full Name:
+				  <input type="text" name="firstname" pattern="[A-Za-z]+" placeholder="Who we will be in contact with" title="letters only"><br>
+				  Company Name:
+				  <input type="text" name="lastname" pattern="[A-Za-z]+" placeholder="Example Inc" title="letters only"><br>
+				  Email:
+				  <input type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" title="xyz@something.com"><br>
+				  Phone Number:
+				  <input type="text" name="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="123-456-7890" title="Follow this format: 123-123-1231"><br>
+				  <br>
+				  Desired Products: <br>
+				  <label>
+				  <input type="checkbox" name="gender" value="wire">Wireframes<br>
+				  </label>	  
+				  <label>
+				  <input type="checkbox" name="gender" value="HFM">High Fidelity Mockups<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="WP">Wordpress<br>
+				  </label>
+				  <label>
+				  <input type="checkbox" name="gender" value="Hand">Hand Coded<br>
+				  </label>
+				  <br>
+				Do you have an existing website? <br>
+				<input type="radio" value="Yes"> Yes <br>
+				<input type="radio" value="No"> No <br>
+				<br>
+				If so, do you have hosting?<br>
+				<input type="radio" value="Yes"> Yes <br>
+				<input type="radio" value="No"> No <br>
+				<br>
+				Do you have a domain name?<br>
+				<input type="radio" value="Yes"> Yes <br>
+				<input type="radio" value="No"> No <br>
+				<br>
+				
+				What is the domain name?
+				<input type="text" name="domain"><br>                  
+				<br>
+				
+				Expected delivery date of files or website?
+				 <input type="text" name="date"><br>                  
+				<br>
+				<button class="button expanded">Submit</a>
+				</form>
+          	</div>
+		</li>  		
+          	
+        <li class="accordion-item 3" data-accordion-item>
+          <a class="accordion-title">Motion Graphics Application</a>
+			<div class="accordion-content form print" data-tab-content>
+				<form>
+					 Motion Graphics Form	
+					 <br>
+					 <br>
+					  Full Name:
+					  <input type="text" name="firstname" pattern="[A-Za-z]+" placeholder="Who we will be in contact with" title="letters only"><br>
+					  Company Name:
+					  <input type="text" name="lastname" pattern="[A-Za-z]+" placeholder="Example Inc" title="letters only"><br>
+					  Email:
+					  <input type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" title="xyz@something.com"><br>
+					  Phone Number:
+					  <input type="text" name="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="123-456-7890" title="Follow this format: 123-123-1231"><br>
+					  <br>
+					  Desired Products: <br>
+					  <label>
+					  <input type="checkbox" name="gender" value="illustrations">Illustrations<br>
+					  </label>	  
+					  <label>
+					  <input type="checkbox" name="gender" value="HFM">Animation<br>
+					  </label>
+					  <label>
+					  <input type="checkbox" name="gender" value="digvid">Digital Video<br>
+					  </label>
+					  <label>
+					  <input type="checkbox" name="gender" value="infog">Animated Infographic<br>
+					  </label>
+					  <br>
+					Do you have a preexisting idea for the video? <br>
+					<input type="radio" value="Yes"> Yes <br>
+					<input type="radio" value="No"> No <br>
+					<br>
+										
+					If so, describe the video ideas:<br>
+					<textarea rows="4" name="ideas"></textarea><br>                  
+					<br>
+					
+					
+					Specific audio/music for the video?<br>
+					<input type="radio" value="Yes"> Yes <br>
+					<input type="radio" value="No"> No <br>
+					<br>
+					
+					Expected delivery date of files or video?<br>
+					 <input type="text" name="date"><br>                  
+					<br>
+					<button class="button expanded">Submit</a>
+					</form>
+			</div>          	
+        </li>
+      
+		
+		</ul>
+
 
     <br />
     <br />
