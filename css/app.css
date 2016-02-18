@@ -273,6 +273,27 @@ footer {
 	padding: 5px;
 }
 
+.accordion {
+	width: 75%;
+	margin: auto;
+}
+
+.accordion-title {
+	text-align: center;
+	font-family: 'Gill Sans MT';
+	color: #1d438f;
+	font-size: 1em;
+}
+
+.accordion-content {
+	width: 90%;
+	margin: auto;
+}
+
+.accordion-content, button {
+	text-align: center;
+	margin: auto;
+}
 
 /********************************************/
 /* TESTIMONIALS */
@@ -448,6 +469,13 @@ footer {
 /********************************************/
 /* LARGE SCREEN STYLES */
 /********************************************/
-@media screen and (min-width: 64em) {}
+@media screen and (min-width: 64em) {
+
+	.accordion-content {
+	width: 60%;
+	margin: auto;
+	}
+
+}
 
 }
