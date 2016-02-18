@@ -421,6 +421,23 @@ footer {
    margin-top:-400px;  /* your iframe height */
 }
 
+/********************************************/
+/* Applications */
+/********************************************/
+
+input[name=phone] {
+ width: 75%;
+}
+
+input[name=date] {
+ width: 60%;
+}
+
+.print {
+    border: 0px;
+    
+}
+
 
 /********************************************/
 /* MEDIA QUERIES */
