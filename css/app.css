@@ -20,6 +20,11 @@ SECTION 12: MEDIA QUERIES - THIS SITE WAS BUILT MOBILE FIRST. SO THE MEDIA QUERI
 /* GENERAL STYLES */
 /********************************************/
 
+
+
+
+
+
 h1, h2, h3, h4, h5, h6 {
 	color: #1d438f;
 	width: 90%;
@@ -127,6 +132,37 @@ nav a:hover {
     color: #fff;
     text-decoration: underline;
 }
+
+
+
+/********************************************/
+/* BANNER IMAGES    */
+/********************************************/
+
+.image-wrapper { 
+	position: 
+	relative; 
+	width: 100%; 
+
+} 
+
+
+.image-wrapper p { 
+	font-size: 50px;
+	position: 
+	absolute; 
+	left: 0; 
+	top: 0; 
+	padding: 50px; 
+	border: 0px 
+	solid #FFF; 
+	width: 100%; 
+	color: #1d438f; 
+	margin: 5px;
+	 }
+
+
+
 
 /********************************************/
 /* OFF-CANVAS NAVIGATION FOR MOBILE VIEW    */
