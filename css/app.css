@@ -199,17 +199,13 @@ header {
 /********************************************/
 
 footer {
-	background-image: url('../img/ftdc_banner.jpg');
-    background-repeat: none;
-    background-size: cover;
     min-height: 12em;
     position: relative;
 }
 
 .footerContent {
 	background-color: #1d438f;
-    background-color: rgba(29,67,143,0.75);
-    background-size: cover;
+    background-color: rgba(29,67,143,1.0);
     color: #eee;
     padding: 1em 0;
     position: absolute;
@@ -230,6 +226,15 @@ footer {
 
 .footerContent a:hover {
 	text-decoration: underline;
+}
+
+#back-top {
+  position: inline;
+  bottom:20px;
+  right: 2%;
+  z-index: 100; 
+  color: #fff;
+  font-size: 40px;
 }
 
 /********************************************/
@@ -295,6 +300,8 @@ footer {
 	margin: auto;
 }
 
+
+
 /********************************************/
 /* TESTIMONIALS */
 /********************************************/
@@ -322,6 +329,7 @@ footer {
   font-size: 100px;
   font-family: Garamond;
   color: #1d438f;
+  margin-bottom: -100px;
 }
 
 .move-right {
@@ -335,6 +343,7 @@ footer {
 
 .quote p {
   font-weight: 300;
+  text-align: left;
 }
 
 @media only screen and (max-width: 40em) {
@@ -343,33 +352,6 @@ footer {
   }
 }
 
-.student {
-  margin-left: 25px;
-  margin-bottom: 80px;
-}
-.student .photo {
-  background-color: #ccc;
-  border-radius: 100px;
-  width: 70px;
-  height: 70px;
-  float: left;
-  margin-right: 15px;
-}
-.student p {
-  position: relative;
-  top: 5px;
-  color: #1d438f;
-}
-.student p:nth-child(2) {
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 0;
-}
-.student p:nth-child(3) {
-  font-size: 14px;
-  font-weight: 400;
-  color: #f47a26;
-}
 
 /********************************************/
 /* CONTACT */
@@ -477,6 +459,10 @@ input[name=date] {
 		font-size: 1.2em;
 	}
 
+	.quote {
+  		margin-top: 70px;
+	}
+
 	footer {
 	    min-height: 20em;
 	}
@@ -489,8 +475,12 @@ input[name=date] {
 @media screen and (min-width: 64em) {
 
 	.accordion-content {
-	width: 60%;
-	margin: auto;
+		width: 60%;
+		margin: auto;
+	}
+
+	.quote {
+  		margin-top: 70px;
 	}
 
 }
