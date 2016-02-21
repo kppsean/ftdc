@@ -140,17 +140,15 @@ nav a:hover {
 /********************************************/
 
 .image-wrapper { 
-	position: 
-	relative; 
+	position: relative; 
 	width: 100%; 
 
 } 
 
 
 .image-wrapper p { 
-	font-size: 50px;
-	position: 
-	absolute; 
+	font-size: 24px;
+	position: absolute; 
 	left: 0; 
 	top: 0; 
 	padding: 50px; 
@@ -467,15 +465,14 @@ input[name=date] {
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
 
-    header {
-	    min-height: 30em;
-	}
 
 	.siteName h1, .siteName h6 {
 		text-align: left;
 	}
 
-	
+	.image-wrapper p { 
+	font-size: 36px;
+	 }
 
 	h1 {
 		font-size: 1.2em;
@@ -509,6 +506,10 @@ input[name=date] {
 /* LARGE SCREEN STYLES */
 /********************************************/
 @media screen and (min-width: 64em) {
+
+	.image-wrapper p { 
+	font-size: 48px;
+	}
 
 	.accordion-content {
 		width: 60%;
